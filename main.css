@@ -24,24 +24,24 @@ button {
     background: linear-gradient(50deg, white, white);
     box-shadow: rgba(103, 21, 21, 0.1) 40px 60px 20px 0px inset, rgb(50 50 93 / 25%) 30px 50px 50px -20px, rgba(124, 217, 121, 0.3) 20px 30px 60px -30px;
     transition: .5s;
-	border: 10px outset white;
-	margin: 15px 5px 0 5px;
-	font-size: 20px;	}
+    border: 10px outset white;
+    margin: 15px 5px 0 5px;
+    font-size: 20px;	}
 .a {color: #851151;}
 .input {
-grid-column: span 4;
-height: 98px;
-width:90%;
-box-shadow: inset -6px -6px 13px #fff,
+   grid-column: span 4;
+   height: 98px;
+   width:90%;
+   box-shadow: inset -6px -6px 13px #fff,
             inset 6px 6px 13px gray;
-background-color: #ecF0F3;
-border:none;
-border-radius: 32px;
-color: #000;
-text-align: end;
-margin: 40px 0 30px 10px;
-font-size: 40px;
-padding-right: 15px;}
+   background-color: #ecF0F3;
+   border:none;
+   border-radius: 32px;
+   color: #000;
+   text-align: end;
+   margin: 40px 0 30px 10px;
+   font-size: 40px;
+   padding-right: 15px;}
 .clear{
 	background: linear-gradient(40deg, #6976af, #851151);
 	color: #fff;}
