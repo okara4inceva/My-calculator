@@ -1,17 +1,16 @@
 
 #container {
-	background-color: white;
-	border: 1px solid rgba(47,47,47,1);
-	border-radius: 18px;
-	display: grid;
-	grid-template-columns: repeat(4, 100px);
-	grid-template-rows: minmax(80px, auto) repeat(5, 80px);
-	gap: 2px;
-	padding: 10px;
-	box-shadow: #6976af 20px 40px 50px 40px inset;
-	border: 15px outset #6976af;
-}
-	#block {
+    background-color: white;
+    border: 1px solid rgba(47,47,47,1);
+    border-radius: 18px;
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows: minmax(80px, auto) repeat(5, 80px);
+    gap: 2px;
+    padding: 10px;
+    box-shadow: #6976af 20px 40px 50px 40px inset;
+    border: 15px outset #6976af;}
+#block {
     display: flex;
     min-height: 95vh;
     justify-content: center;
@@ -19,8 +18,7 @@
     align-items: center;
     height: 100vh;
     overflow: hidden;
-    background-color: ivory;
-	}
+    background-color: ivory;}
 button {
 	border-radius: 18px;
 	background: linear-gradient(50deg, white, white);
@@ -28,8 +26,7 @@ button {
   transition: .5s;
 	border: 10px outset white;
 	margin: 15px 5px 0 5px;
-	font-size: 20px;	
-}
+	font-size: 20px;	}
 .a {color: #851151;}
 .input {
 grid-column: span 4;
@@ -44,25 +41,18 @@ color: #000;
 text-align: end;
 margin: 40px 0 30px 10px;
 font-size: 40px;
-padding-right: 15px;
-}
-
+padding-right: 15px;}
 .clear{
 	background: linear-gradient(40deg, #6976af, #851151);
-	color: #fff;
-}
+	color: #fff;}
 .operator{
 	background: linear-gradient(40deg, pink, #6976af);
 	color:#fff;
-	font-size: 30px;
-}
+	font-size: 30px;}
 .sign {
-	background: linear-gradient(40deg, white, lightblue);
-}
+	background: linear-gradient(40deg, white, lightblue);}
 .percent{
-	background: linear-gradient(40deg, white, lightblue);
-}
+	background: linear-gradient(40deg, white, lightblue);}
 .operand{
-	background: linear-gradient(40deg, white, #6976af);
-}
+	background: linear-gradient(40deg, white, #6976af);}
 
