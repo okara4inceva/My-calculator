@@ -4,7 +4,7 @@
     border: 1px solid rgba(47,47,47,1);
     border-radius: 18px;
     display: grid;
-    grid-template-columns: repeat(4, 90px);
+    grid-template-columns: repeat(4, 100px);
     grid-template-rows: minmax(80px, auto) repeat(5, 80px);
     gap: 2px;
     padding: 10px;
