@@ -20,10 +20,10 @@
     overflow: hidden;
     background-color: ivory;}
 button {
-	border-radius: 18px;
-	background: linear-gradient(50deg, white, white);
-	box-shadow: rgba(103, 21, 21, 0.1) 40px 60px 20px 0px inset, rgb(50 50 93 / 25%) 30px 50px 50px -20px, rgba(124, 217, 121, 0.3) 20px 30px 60px -30px;
-  transition: .5s;
+    border-radius: 18px;
+    background: linear-gradient(50deg, white, white);
+    box-shadow: rgba(103, 21, 21, 0.1) 40px 60px 20px 0px inset, rgb(50 50 93 / 25%) 30px 50px 50px -20px, rgba(124, 217, 121, 0.3) 20px 30px 60px -30px;
+    transition: .5s;
 	border: 10px outset white;
 	margin: 15px 5px 0 5px;
 	font-size: 20px;	}
