@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="main.css" />
+		<script src="script.js" defer></script>
+  </head>
+  <body>
+		<div id="block">
+      <div id="container">
+          <div class="input">
+            <div class="b"></div>
+            <div class="a">0</div>
+          </div>
+          <button class="clear">AC</button>	
+					<button class="percent" onclick="inputPercent()">%</button>
+					<button class="sign" onclick="setOperator()">+/-</button>
+					<button class="operator">+</button>
+          <button class="number operand"  >7</button>
+          <button class="number operand"  >8</button>
+          <button class="number operand"  >9</button>
+          <button class="operator">/</button>
+          <button class="number operand"  >4</button>
+          <button class="number operand"  >5</button>
+          <button class="number operand"  >6</button>
+          <button class="operator">x</button>
+          <button class="number operand"  >1</button>
+          <button class="number operand"  >2</button>
+          <button class="number operand"  >3</button>
+          <button class="operator">-</button>
+          <button class="decimal">.</button>
+          <button class="number operand" id="zero" onclick="oneTime()">0</button>
+					<button class="Backspace" onclick="backSpace()">DEL</button>
+          <button class="equal">=</button>
+      </div>
+    </div>
+  </body>
+</html>
